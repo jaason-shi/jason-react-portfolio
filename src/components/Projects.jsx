@@ -1,36 +1,27 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import HappinessReport from "../assets/portfolio/happinessreport.png";
+import MediTrack from "../assets/portfolio/meditrack.jpg";
+import TextGame from "../assets/portfolio/textgame.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      name: "MediTrack",
+      src: MediTrack,
+      github: "https://github.com/jaason-shi/MediTrack",
     },
     {
       id: 2,
-      src: reactParallax,
+      name: "Global Happiness Viewer",
+      src: HappinessReport,
+      github: "https://github.com/jaason-shi/global-happiness-viewer",
     },
     {
       id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      name: "Text Adventure Game",
+      src: TextGame,
+      github: "https://github.com/jaason-shi/text-based-adventure-game",
     },
   ];
   return (
@@ -46,21 +37,26 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my recent projects!</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-center">
+          {portfolios.map(({ id, src, github, name }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 h-200"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+              <span className="text-2xl font bold text-[#8892b0] tracking-wider items-center justify-center ">
+                {name}
+              </span>
+              <div className="pt-8 text-center ">
+                <a href={github} target="_blank" rel="noreferrer">
+                  <button
+                    className="text-center rounded-md hover:bg-pink-600 w-fit my-2 px-4 py-2 m-2
+                           text-white border-2"
+                  >
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
