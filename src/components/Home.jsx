@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="w-full md:flex flex-col justify-center md:w-2/3 content-center">
           <img
-            className="rounded-2xl md:flex mx-auto w-2/3 md:w-full max-w-[350px]"
+            className="rounded-2xl md:flex mx-auto w-2/3 md:w-full max-w-[250px] "
             src={Profile}
             alt="my profile"
           />
