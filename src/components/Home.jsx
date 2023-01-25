@@ -20,7 +20,7 @@ const Home = () => {
           </h4>
           <p className="text-[#8892b0] py-4 max-w-[700px]">
             As a computer systems technology student at BCIT, I am inspired by
-            the ever-evolving wold of technology and its ability to solve
+            the ever-evolving world of technology and its ability to solve
             complex problems. I am dedicated to applying my skills and knowledge
             to create innovative websites and applications that can enhance and
             improve daily life.

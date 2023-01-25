@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          I am an aspiring software developer with a strong drive to success in
+          I am an aspiring software developer with a strong drive to succeed in
           the tech industry. I am honing my skills in various programming
           languages such as Python, JavaScript, HTML, and CSS. Currently, I am
           learning Java and C at BCIT. In my free time, I am also learning React
