@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/jason-shi-034012262/",
       style: "rounded-tr-md",
     },
     {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/jaason-shi",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const SocialLinks = () => {
           <SiGmail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:jasons8002@gmail.com",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/QDS20_AAR.pdf",
+      href: "/Jason_Shi_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
