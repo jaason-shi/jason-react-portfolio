@@ -11,15 +11,19 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <p className="text-pink-600">Hi, my name is </p>
+          <p className="text-pink-600">Hello! My name is </p>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-            Jason Shi
+            Jason
           </h1>
-          <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-            I'm a Full Stack Developer.
-          </h2>
+          <h4 className="text-2xl sm:text-5xl font-bold text-[#8892b0]">
+            Aspiring Software Developer
+          </h4>
           <p className="text-[#8892b0] py-4 max-w-[700px]">
-            I have 1 year of experience
+            As a computer systems technology student at BCIT, I am inspired by
+            the ever-evolving wold of technology and its ability to solve
+            complex problems. I am dedicated to applying my skills and knowledge
+            to create innovative websites and applications that can enhance and
+            improve daily life.
           </p>
 
           <div>
