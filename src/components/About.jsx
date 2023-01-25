@@ -4,31 +4,33 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-[#8892b0]"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="w-full h-full flex flex-col justify-center items-center">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 text-[#ccd6f6] border-pink-600">
-              About
-            </p>
-          </div>
-          <div></div>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 text-[#8892b0] border-pink-600">
+            About
+          </p>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. Jason, nice to meet you! Feel free to browse around.</p>
-          </div>
-          <div>
-            <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
-            </p>
-          </div>
-        </div>
+
+        <p className="text-xl mt-20">
+          I am an aspiring software developer with a strong drive to success in
+          the tech industry. I am honing my skills in various programming
+          languages such as Python, JavaScript, HTML, and CSS. Currently, I am
+          learning Java and C at BCIT. In my free time, I am also learning React
+          and React Native. I am passionate about staying up-to-date with the
+          latest technologies and am always looking for new challenges to
+          tackle.
+        </p>
+
+        <br />
+
+        <p className="text-xl">
+          While not at my desk, I am the captain of my volleyball team and enjoy
+          the camaraderie and competition that comes with the sport. I also love
+          hitting the slopes and skiing down the mountain during the winter
+          time.
+        </p>
       </div>
     </div>
   );
