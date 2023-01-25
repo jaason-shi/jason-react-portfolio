@@ -33,7 +33,7 @@ const Home = () => {
               duration={500}
               className="group text-white border-2 w-fit px-5 py-3 my-2 flex cursor-pointer items-center rounded-md hover:bg-pink-600"
             >
-              View Work
+              View Projects
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
