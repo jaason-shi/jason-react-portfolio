@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -35,18 +34,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:jasons8002@gmail.com",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume
-          <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/Jason_Shi_Resume.pdf",
-      style: "rounded-br-md",
-      download: true,
     },
   ];
   return (
