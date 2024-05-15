@@ -4,6 +4,7 @@ import CSS from "../assets/css.png";
 import Firebase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import HTML from "../assets/html.png";
+import Java from "../assets/java.jpg";
 import JavaScript from "../assets/javascript.png";
 import MongoDB from "../assets/mongo.png";
 import Python from "../assets/python.png";
@@ -65,6 +66,12 @@ const Experience = () => {
       src: GitHub,
       title: "GitHub",
       style: "shadow-gray-500",
+    },
+    {
+      id: 10,
+      src: Java,
+      title: "Java",
+      style: "shadow-red-500",
     },
   ];
   return (
