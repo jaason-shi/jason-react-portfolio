@@ -2,9 +2,10 @@ import React from "react";
 import HappinessReport from "../assets/portfolio/happinessreport.png";
 import MediTrack from "../assets/portfolio/meditrack.jpg";
 import TextGame from "../assets/portfolio/textgame.png";
+import ProjectCard from "./ProjectCard";
 
-const Portfolio = () => {
-  const portfolios = [
+const Projects = () => {
+  const Projects = [
     {
       id: 1,
       name: "MediTrack",
@@ -24,6 +25,7 @@ const Portfolio = () => {
       github: "https://github.com/jaason-shi/text-based-adventure-game",
     },
   ];
+
   return (
     <div
       name="projects"
@@ -37,28 +39,9 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my recent projects!</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-center">
-          {portfolios.map(({ id, src, github, name }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105 h-200"
-              />
-              <span className="text-2xl font bold text-[#8892b0] tracking-wider items-center justify-center ">
-                {name}
-              </span>
-              <div className="pt-8 text-center ">
-                <a href={github} target="_blank" rel="noreferrer">
-                  <button
-                    className="text-center rounded-md hover:bg-pink-600 w-fit my-2 px-4 py-2 m-2
-                           text-white border-2"
-                  >
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {Projects.map((portfolio) => (
+            <ProjectCard key={portfolio.id} {...portfolio} />
           ))}
         </div>
       </div>
@@ -66,4 +49,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
