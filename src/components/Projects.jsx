@@ -9,17 +9,23 @@ const Projects = () => {
     {
       name: "Diagnosing Skin Diseases",
       src: DSD,
+      description:
+        "Developed a full-stack web application with a client to diagnose skin diseases using a series of decision trees as diagnosis models",
       github:
         "https://github.com/Diagnosing-SkinDiseases/diagnosing-skin-diseases",
     },
     {
       name: "Global Happiness Viewer",
       src: HappinessReport,
+      description:
+        "A Python application that visualizes data correlations among happiness, GDP, wealth, minimum wage, and life expectancy in various countries",
       github: "https://github.com/jaason-shi/global-happiness-viewer",
     },
     {
       name: "NutriFit",
       src: NutriFit,
+      description:
+        "A full-stack mobile application that uses the chatGPT API to provide users with personalized meal and workout plans based on user preferences and goals.",
       github: "https://github.com/jaason-shi/NutriFit",
     },
   ];
