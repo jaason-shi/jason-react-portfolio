@@ -1,28 +1,26 @@
 import React from "react";
+import DSD from "../assets/portfolio/dsd.jpg";
 import HappinessReport from "../assets/portfolio/happinessreport.png";
-import MediTrack from "../assets/portfolio/meditrack.jpg";
-import TextGame from "../assets/portfolio/textgame.png";
+import NutriFit from "../assets/portfolio/nutrifit.jpg";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const Projects = [
     {
-      id: 1,
-      name: "MediTrack",
-      src: MediTrack,
-      github: "https://github.com/jaason-shi/MediTrack",
+      name: "Diagnosing Skin Diseases",
+      src: DSD,
+      github:
+        "https://github.com/Diagnosing-SkinDiseases/diagnosing-skin-diseases",
     },
     {
-      id: 2,
       name: "Global Happiness Viewer",
       src: HappinessReport,
       github: "https://github.com/jaason-shi/global-happiness-viewer",
     },
     {
-      id: 3,
-      name: "Text Adventure Game",
-      src: TextGame,
-      github: "https://github.com/jaason-shi/text-based-adventure-game",
+      name: "NutriFit",
+      src: NutriFit,
+      github: "https://github.com/jaason-shi/NutriFit",
     },
   ];
 

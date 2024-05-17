@@ -1,12 +1,11 @@
 import React from "react";
 
 import CSS from "../assets/css.png";
-import Firebase from "../assets/firebase.png";
-import GitHub from "../assets/github.png";
 import HTML from "../assets/html.png";
-import Java from "../assets/java.jpg";
+import Java from "../assets/java.png";
 import JavaScript from "../assets/javascript.png";
 import MongoDB from "../assets/mongo.png";
+import Node from "../assets/node.png";
 import Python from "../assets/python.png";
 import ReactIcon from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
@@ -14,64 +13,49 @@ import Tailwind from "../assets/tailwind.png";
 const Experience = () => {
   const experiences = [
     {
-      id: 1,
       src: Python,
       title: "Python",
       style: "shadow-yellow-300",
     },
     {
-      id: 2,
+      src: Java,
+      title: "Java",
+      style: "shadow-orange-300",
+    },
+    {
       src: ReactIcon,
       title: "React",
       style: "shadow-blue-700",
     },
     {
-      id: 3,
-      src: MongoDB,
-      title: "MongoDB",
-      style: "shadow-green-700",
-    },
-    {
-      id: 4,
       src: JavaScript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 5,
       src: HTML,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
-      id: 6,
       src: CSS,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 7,
       src: Tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 8,
-      src: Firebase,
-      title: "Firebase",
-      style: "shadow-orange-300",
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-green-700",
     },
     {
-      id: 9,
-      src: GitHub,
-      title: "GitHub",
+      src: Node,
+      title: "Node.js",
       style: "shadow-gray-500",
-    },
-    {
-      id: 10,
-      src: Java,
-      title: "Java",
-      style: "shadow-red-500",
     },
   ];
   return (
